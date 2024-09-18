@@ -1,0 +1,794 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.promo_banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 45px;
+    background: rgb(138 115 80);
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    background: black;
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+}
+
+.menu_lens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 10%;
+    float: left;
+    flex-direction: row;
+}
+
+.logo_background{
+    height: 100%;
+    width: 80%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.profile_cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 10%;
+    float: left;
+    flex-direction: row;
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: black; 
+    cursor: pointer;
+}
+
+.menu{
+    margin-left: 10px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.lens{
+    height: 25px;
+    width: 25px;
+}
+
+.lens_background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.lens_background:hover{
+    background: #80808078;
+}
+
+.profile{
+    height: 25px;
+    width: 25px;
+}
+
+.profile_background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.profile_background:hover{
+    background: #80808078;
+}
+
+.cart{
+    height: 25px;
+    width: 25px;
+}
+
+.cart_background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.cart_background:hover{
+    background: #80808078;
+}
+
+.main_body{
+    width: 100%;
+    height: 4700px;
+    background: #ffff;
+}
+
+.extra_offer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background: rgb(65 69 132);
+    flex-direction: column;
+}
+
+
+.div1{
+    width: 100%;
+    height: 436px;
+    position: relative;
+    cursor: pointer;
+}
+
+.div1_text{
+    right: 100px;
+    position: absolute;
+    width: 340px;
+    height: 150px;
+    background-color: transparent;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: right;
+}
+
+.div1_larger_text{
+    font-size: 35px; 
+    font-weight: 700; 
+    color: white; 
+    line-height: 1.5;
+}
+
+.div1_smaller_text{
+    font-size: 20px;
+    color: white; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+.div1_shop{
+    right: 70px;
+    margin-top: 10px;
+    position: absolute;
+    width: 340px;
+    height: 50px;
+    background-color: transparent;
+    top: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.div1_shop_button{
+    color: black;
+    height: 100%;
+    width: fit-content;
+    background: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.div2{
+    width: 100%;
+    height: 800px;
+    background: white;
+    position: relative;
+}
+
+.div2_innerdiv{
+    background: rgb(237 207 142);
+    width: 100%;
+    height: 560px;
+    top: 90px;
+    position: relative;
+}
+
+.image_container{
+    top: 50px;
+    width: 100%;
+    height: 715px;
+    position: absolute;
+}
+
+.div2_text_div{
+    width: 360px;
+    height: 150px;
+    background: transparent;
+    position: absolute;
+    left: 40px;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+}
+
+.div2_larger_text{
+    font-size: 35px; 
+    font-weight: 700; 
+    color: black;
+}
+
+.div2_smaller_text{
+    font-size: 20px;
+    color: black; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+.div2_shop{
+    left: 40px;
+    margin-top: 10px;
+    position: absolute;
+    width: 360px;
+    height: 50px;
+    background-color: transparent;
+    top: 190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.div2_shop_button{
+    color: white;
+    height: 100%;
+    width: fit-content;
+    background: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.image1{
+    width: 635px;
+    height: 715px;
+    right: 40px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.image2{
+    width: 635px;
+    height: 400px;
+    bottom: 40px;
+    margin-left: 40px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.div3{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.div3_text_div{
+    width: 500px;
+    height: 40px;
+    position: absolute;
+    background: transparent;
+    right: 30px;
+    top: 200px;
+    text-align: center;
+    align-content: center;
+}
+
+.div3_text{
+    font-size: 35px; 
+    font-weight: 700; 
+    color: white;
+}
+
+.div3_shop{
+    right: 60px;
+    margin-top: 0px;
+    position: absolute;
+    width: 420px;
+    height: 50px;
+    background-color: transparent;
+    top: 255px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.div3_shop_button{
+    color: black;
+    height: 100%;
+    width: fit-content;
+    background: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.div4{
+    width: 100%;
+    height: 800px;
+    background: white;
+    position: relative;
+}
+
+.div4_innerdiv{
+    background: rgb(218 210 204);
+    width: 100%;
+    height: 560px;
+    top: 90px;
+    position: relative;
+}
+
+.div4_text_div{
+    width: 360px;
+    height: 150px;
+    background: transparent;
+    position: absolute;
+    left: 40px;
+    top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+}
+
+.div4_larger_text{
+    font-size: 35px; 
+    font-weight: 700; 
+    color: black;
+}
+
+.div4_smaller_text{
+    font-size: 20px;
+    color: black; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+.div4_shop{
+    left: 40px;
+    margin-top: 10px;
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    background-color: transparent;
+    top: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.div4_shop_button{
+    color: white;
+    height: 100%;
+    width: fit-content;
+    background: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.div5{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.div5_text_div{
+    width: 360px;
+    height: 120px;
+    background: transparent;
+    position: absolute;
+    right: 120px;
+    top: 140px;
+}
+
+.div5_larger_text{
+    font-size: 35px; 
+    font-weight: 700; 
+    color: white;
+}
+
+.div5_smaller_text{
+    font-size: 20px;
+    color: white; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+.div5_shop{
+    right: 60px;
+    position: absolute;
+    width: 420px;
+    height: 50px;
+    background-color: transparent;
+    top: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.div5_shop_button{
+    color: black;
+    height: 100%;
+    width: fit-content;
+    background: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.div6{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.div6_text_div{
+    top: 155px;
+    width: 240px;
+    height: 46px;
+    background: transparent;
+    position: absolute;
+    left: 50px;
+}
+
+.div6_text{
+    font-size: 35px; 
+    font-weight: 700; 
+    color: white;
+}
+
+.div6_shop{
+    left: 50px;
+    position: absolute;
+    width: 420px;
+    height: 50px;
+    background-color: transparent;
+    top: 210px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.div6_shop_button{
+    color: black;
+    height: 100%;
+    width: fit-content;
+    background: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.table_div{
+    margin-top: 10px;
+    width: 100%;
+    height: 650px;
+    background:white;
+    display: grid;
+    justify-content: center;
+}
+
+.table_heading{
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+}
+
+.table_image{
+    width: 280px;
+    height: 380px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.title_div{
+    width: 280px;
+    height: 100px;
+    margin: 10px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    cursor: pointer;
+}
+
+.title_text_div{
+    background: transparent;
+    width: 220px;
+    height: 60px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.table_shop_button{
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    background: black;
+    bottom: 0px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+.kids_div{
+    margin-top: 10px;
+    width: 100%;
+    height: 400px;
+    background:white;
+    display: grid;
+    justify-content: center;
+    position: relative;
+}
+
+.kids_title{
+    width: 280px;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.30);
+    color: white;
+    cursor: pointer;
+}
+
+.kids_image{
+    width: 280px;
+    height: 280px;
+    margin: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.footer{
+    width: 100%;
+    height: 450px;
+    background: rgb(24 24 24);
+}
+
+.first_half{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 580px;
+    height: 300px;
+    background: transparent;
+    float: left;
+}
+
+.second_half{
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 580px;
+    height: 300px;
+    background: transparent;
+    float: left;
+    position: relative;
+}
+
+.unorder_list{
+    padding: 0px;
+    list-style: none;
+    margin-top: 20px;
+    float: left;
+    margin-right: 115px;
+}
+
+.list{
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: rgb(229, 231, 235);
+    cursor: pointer;
+}
+
+.stay_explore{
+    background: transparent;
+    width: 320px;
+    height: 280px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.social_media{
+    width: 330px;
+    height: 35px;
+    background: transparent;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.social_media_icon{
+    background: transparent;
+    height: 35px;
+    width: 35px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.social_media_icon:hover{
+    background: gray;
+}
+
+.footer_bottom_box{
+    width: 1180px;
+    height: 100px;
+    background: transparent;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgb(229, 231, 235);
+}
+
+.app_trac{
+    width: 250px;
+    height: 60px;
+    background: transparent;
+    margin-top: 30px;
+}
+
+.puma_app_trac{
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    float: left;
+    margin-right: 20px;
+    display: grid;
+    justify-content: center;
+    border-radius: 10px;
+    outline: 1px solid;
+    color: rgb(229, 231, 235);
+    cursor: pointer;
+}
+
+.puma_app_trac:hover{
+    border: 1px solid;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.puma_app_trac_text{
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.payment_cards{
+    height: 40px;
+    width: 360px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.indian_flag{
+    height: 60px;
+    width: 360px;
+    background: transparent;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy_right{
+    height: 40px;
+    width: 360px;
+    background: transparent;
+    text-align: right;
+    font-size: 12px;
+    display: grid;
+    align-content: center;
+    color: rgb(229, 231, 235);
+}
+
+.payment_cards_list{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card_size{
+    width: 50px;
+    height: 30px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag_border_div{
+    height: 100%;
+    width: 40%;
+    border: 1px solid rgb(229, 231, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.flag_div{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 20px;
+    left: 20px;
+}
